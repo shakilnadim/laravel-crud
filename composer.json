@@ -1,0 +1,27 @@
+{
+    "name": "shakilnadim/laravel-crud",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1",
+        "illuminate/console": "^10.17",
+        "illuminate/filesystem": "^10.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shakilnadim\\LaravelCrud\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shakilnadim\\LaravelCrud\\LaravelCrudProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "shakilnadim"
+        }
+    ],
+    "minimum-stability": "dev"
+}
